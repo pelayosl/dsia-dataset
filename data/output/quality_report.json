@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-10-11T21:33:26+00:00",
+  "rows": 68180,
+  "start": "2019-01-01T00:00:00+00:00",
+  "end": "2026-10-11T19:00:00+00:00",
+  "index_unique": true,
+  "index_monotonic_increasing": true,
+  "duplicated_timestamps": 0,
+  "expected_hours": 68180,
+  "present_hours": 68180,
+  "missing_timestamps": [],
+  "gaps": {
+    "load_mw": [
+      {
+        "start": "2025-04-28T11:00:00+00:00",
+        "end": "2025-04-29T21:00:00+00:00",
+        "hours": 35
+      }
+    ],
+    "weather": []
+  },
+  "nulls": {
+    "load_mw": 35,
+    "load_interpolated": 0,
+    "temperature_2m": 0,
+    "relative_humidity_2m": 0,
+    "wind_speed_10m": 0,
+    "shortwave_radiation": 0,
+    "precipitation": 0,
+    "weather_interpolated": 0,
+    "time_local": 0,
+    "is_holiday": 0,
+    "covid_flag": 0
+  },
+  "interpolated": {
+    "load_interpolated": 0,
+    "weather_interpolated": 0
+  },
+  "out_of_range": {
+    "load_mw": {
+      "range": [
+        15000,
+        50000
+      ],
+      "count": 2,
+      "examples": [
+        {
+          "time": "2026-03-17T10:00:00+00:00",
+          "value": 6549.0
+        },
+        {
+          "time": "2026-03-17T11:00:00+00:00",
+          "value": 0.0
+        }
+      ]
+    },
+    "temperature_2m": {
+      "range": [
+        -20,
+        50
+      ],
+      "count": 0,
+      "examples": []
+    },
+    "relative_humidity_2m": {
+      "range": [
+        0,
+        100
+      ],
+      "count": 0,
+      "examples": []
+    },
+    "wind_speed_10m": {
+      "range": [
+        0,
+        null
+      ],
+      "count": 0,
+      "examples": []
+    },
+    "shortwave_radiation": {
+      "range": [
+        0,
+        null
+      ],
+      "count": 0,
+      "examples": []
+    },
+    "precipitation": {
+      "range": [
+        0,
+        null
+      ],
+      "count": 0,
+      "examples": []
+    }
+  },
+  "load_missing_pct": 0.0513,
+  "load_missing_ok": true
+}

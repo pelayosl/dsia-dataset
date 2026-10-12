@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Datos en bruto (se regeneran con build_dataset)
+data/raw/*
+!data/raw/.gitkeep
